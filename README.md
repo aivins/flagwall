@@ -44,4 +44,4 @@ Any URL with a host part that ends in one of the following will be scanned.
 - thestar.com
 - thetimes.co.uk
 - volkskrant.nl
-- wsj.com"
+- wsj.com
