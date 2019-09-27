@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <style>
+        .heading {
+          font-weight: bold;
+          font-size: 16pt;
+          padding-bottom: 5px;
+          margin-bottom: 5px;
+          border-bottom: 1px solid black;
+          text-align: center;
+        }
+        .container {
+          width: 200px;
+          font-size: 12pt;
+        }
+        .toggle {
+          transform: scale(1.5);
+        }
+        .info-text {
+          font-size: 10pt;
+        }
+        .tip-text {
+          font-size: 8pt;
+          margin: 5px 5px 5px 5px;
+          color: #999999;
+          text-align: center;
+        }
+        .controls {
+          text-align: center;
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <div class="heading">Flagwall</div>
+        <div>
+          <div class="info-text">
+            When enabled, text hyperlinks to known paywall domains will
+            be flagged by a dotted red underline.
+          </div>
+          <div class="controls">
+            <span>
+              <input id="toggleEnable" class="toggle" type="checkbox" disabled />
+              <script src="popup.js"></script>
+            </span>
+            <span>
+              <b>Enabled</b>
+            </span>        
+          </div>
+          <div class="tip-text">Changes will take effect on next page load</div>
+        </div>
+      </div>
+    </body>
+  </html>
