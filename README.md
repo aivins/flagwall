@@ -11,13 +11,12 @@ with a dotted red underline. The user then has the option of ignoring them.
 
 ## How does it work?
 
-It adds a CSS class to every matching hyperlink. It also listens for changes
-to the DOM to catch dynamically generated content. The extension can be enabled/disabled
-globally.
+Every web page you visit is scanned after it is loaded. It adds a CSS class to every matching hyperlink. It also listens for changes to the DOM to catch dynamically
+generated content. The extension can be enabled/disabled globally.
 
 ## Domains
 
-Any URL with a host part that ends in one of the following will be scanned.
+Any URL with a host part that ends in one of the following will be flagged.
 
 - adelaidenow.com.au
 - theaustralian.com.au
